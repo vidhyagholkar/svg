@@ -1,1 +1,5 @@
-Example of Animation with SVG
+Examples of Animation with SVG
+
+```anim.svg```
+
+```circ.svg```
