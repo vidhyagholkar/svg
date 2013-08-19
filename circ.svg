@@ -1,18 +1,25 @@
-<svg  xmlns="http://www.w3.org/2000/svg" 
+<svg xmlns="http://www.w3.org/2000/svg" 
 	xmlns:xlink="http://www.w3.org/1999/xlink">
 
-	<circle 
-		id = "bob" 
-		cx = "0" cy = "0" r = "10"
-		style = "stroke:none; fill: #ff0000;">
-		<animateMotion id="FC"
-			begin= "0s" dur="10s" repeatCount="indefinite">
-			<mpath xlink:href="#arc"/>
-		</animateMotion>
-	</circle>
-		<path id="arc" 
+<path id="arc" 
 			d = "M150,100 A150,150 0 1,0  350,300"
 			style = "stroke: #00ff00; stroke-width:2; fill:none;"
 			/>
+	<circle id = "bob" 
+		cx = "0" cy = "0" r = "10"
+		style = "stroke:none; fill: #ff0000; opacity=1">
+		<animateMotion id="bobSlide"
+			begin = "0s" dur = "10s" repeatCount = "indefinite">
+			<mpath xlink:href = "#arc"/>
+		</animateMotion>
+	</circle>
+	<circle onclick="roll()"
+		id = "bib" 
+		cx = "400" cy = "250" r = "10"
+		style = "stroke:none; fill: #0000ff; opacity=1">
+	</circle>
+
 
 </svg>
+
+
