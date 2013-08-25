@@ -13,7 +13,7 @@
 			<mpath xlink:href = "#arc"/>
 		</animateMotion>
 	</circle>
-	<circle onclick="roll()"
+	<circle
 		id = "bib" 
 		cx = "400" cy = "250" r = "10"
 		style = "stroke:none; fill: #0000ff; opacity=1">
