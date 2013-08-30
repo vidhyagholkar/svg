@@ -15,7 +15,7 @@ define a path
 			d="M 400,200  Q690,250  690,200  Q690,50 400,100  Q110,50 110,200  Q110,250  400,200 " display="none"/>
 
 
-<!-- This is a Ellipse!  -->
+<!-- This is an Ellipse!  -->
 	<ellipse id="BigEllipse" 
 		rx="50" 
 		ry="50"  
