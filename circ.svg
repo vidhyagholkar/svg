@@ -9,11 +9,11 @@
 			d = "M450 350 L 450 50"
 			display = "none"
 			/>
-	<g id="dum">
-		<line id ="crossh" x1 = "-30" y1 = "0"  x2 = "30" y2 = "0"
+	<g id="crosshair">
+		<line id ="cross" x1 = "-30" y1 = "0"  x2 = "30" y2 = "0"
 			style = "stroke: #ff0000; stroke-width:2;" />
-		<use xlink:href='#crossh' transform ="rotate(90 0 0)" />
-			<animateMotion id="lineSlide"
+		<use xlink:href='#cross' transform ="rotate(90 0 0)" />
+			<animateMotion id="mvCross"
 				begin = "0s" dur = "10s" repeatCount = "indefinite">
 				<mpath xlink:href = "#arc"/> 
 			</animateMotion> 
